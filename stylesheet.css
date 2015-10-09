@@ -1,8 +1,13 @@
 
 body {
-   background-image: url("http://drive.google.com/uc?export=view&id=0B7T_dEtTqCABV19oWGhxZlVpb0U");
+   background-image: image(images/bg.jpg);
    background-repeat: no-repeat;
 }
+.container {
+  margin:0 auto;
+  width:80%;
+}
+
 header{
   width: 80%;
   margin: 0 auto;
@@ -14,16 +19,13 @@ header{
   border-left: 1px dotted white;
   margin-left: 610px;
 }
+.socialicons a{
+
+}
 
 header ul li{
   text-decoration: none;
   display: inline-block;
-}
-
-.red a{
-  display: inline-block;
-  margin: 0 auto;
-  width: 80%;
 }
 
 .picsover img{
@@ -31,8 +33,55 @@ header ul li{
     width:80%;
 }
 .red a{
+  display: inline-block;
+  margin: 0 auto;
   background-color: red;
   text-decoration: none;
   color:white;
-  padding: 0 20px 0 20px;
+  padding: 0 10px 0 10px;
+  font-size: 16px;
+}
+.red nav{
+  width:80%;
+  margin:0 auto;
+}
+.red ul {
+font-family: sans-serif;
+width:70%;
+margin:0 auto;
+}
+div.center-cropped {
+  width: 100px;
+  height: 100px;
+  overflow:hidden;
+}
+div.center-cropped img {
+  height: 100%;
+  min-width: 100%;
+  left: 50%;
+  position: relative;
+  transform: translateX(-50%);
+}
+
+.sec1 {
+  display: inline-block;
+  position: relative;
+  border-color: green;
+  width: 20%;
+  margin: 0 auto;
+}
+.sec2{
+
+}
+.sec3 ul{
+  border-color: green;
+  border: 1px;
+  display: inline-block;
+  padding:0;
+  margin:0 auto;
+}
+.sec3 ul li{
+  display: inline-block;
+  padding:0;
+  margin:0 auto;
 }
