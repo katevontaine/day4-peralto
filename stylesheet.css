@@ -1,0 +1,38 @@
+
+body {
+   background-image: url("http://drive.google.com/uc?export=view&id=0B7T_dEtTqCABV19oWGhxZlVpb0U");
+   background-repeat: no-repeat;
+}
+header{
+  width: 80%;
+  margin: 0 auto;
+}
+.socialicons img{
+  max-width: 35px;
+}
+.socialicons{
+  border-left: 1px dotted white;
+  margin-left: 610px;
+}
+
+header ul li{
+  text-decoration: none;
+  display: inline-block;
+}
+
+.red a{
+  display: inline-block;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.picsover img{
+    margin:0 auto;
+    width:80%;
+}
+.red a{
+  background-color: red;
+  text-decoration: none;
+  color:white;
+  padding: 0 20px 0 20px;
+}
