@@ -1,3 +1,4 @@
+
 body {
    background-repeat: no-repeat;
 }
@@ -10,6 +11,7 @@ header{
   width: 80%;
   margin: 0 auto;
 }
+
 .socialicons img{
   max-width: 35px;
 }
@@ -22,12 +24,19 @@ header ul li{
   text-decoration: none;
   display: inline-block;
 }
-
 .picsover img{
     margin:0 auto;
     width:60%;
+    position: relative;
 }
 
+.picsover {
+  width: 65%;
+  height:300px;
+  overflow:hidden;
+  border: 5px solid white;
+  margin: -450px 0 0 170px;
+}
 .red a{
   display: inline-block;
   margin: 0 auto;
@@ -43,37 +52,29 @@ header ul li{
 }
 .red ul {
 font-family: sans-serif;
-width:52%;
 margin:0 auto;
+font-size: 10px;
+padding: 0 0 0 210px;
 }
-
-.picsover {
-  width: 65%;
-  height:300px;
-  overflow:hidden;
-  margin: 0 auto;
-  border: 5px solid white;
+.logo img{
+  max-width: 250px;
+  padding-top: 100px;
 }
-
-.center-top img{
-  position: absolute;
-  width:52%;
-  padding-top:50px;
+.logo{
+padding: 100px 300px 220px 150px;
 }
 
 .sec1 {
   display: inline-block;
-  width: 24%;
-  margin: 0 auto;
+  vertical-align:top;
 }
-.sec2{
 
-}
 .sec3 {
   border: 1px blue;
   display: inline-block;
   padding-right:30px;
   margin:0 auto;
+  vertical-align:top;
 }
 .sec3 ul li{
   max-height: 20px;
@@ -84,7 +85,6 @@ margin:0 auto;
 
 .middlesection{
   position: relative;
-  border-color: green;
   margin:0 auto;
   width:52%;
   border: 5px solid white;
@@ -119,13 +119,57 @@ footer{
   margin: 0 auto;
 }
 .box1, .box2, .box3{
+  width: 30%;
   background-color: white;
   position: relative;
   display: inline-block;
+  vertical-align:top;
 }
 .footerpara{
   display: inline-block;
+  width: 60%;
 }
 .contactform{
   display: inline-block;
+  width: 10%;
+}
+.middlesections{
+  vertical-align:top;
+}
+section .sec2{
+  border: 5px solid white;
+
+}
+
+section .sec2 img {
+  width: 200px;
+  height: 150px;
+  border: 1px solid #000;
+  margin-right: 1em;
+  vertical-align: top;
+}
+.sk8-3{
+  width:20%;
+  vertical-align: top;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  border: 5px solid white;
+  overflow:hidden;
+  display: inline-block;
+
+}
+
+.sk8-1{
+  width: 25%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  border: 5px solid white;
+  overflow:hidden;
+  display: inline-block;
+  padding-left: 200px;
 }
