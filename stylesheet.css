@@ -355,3 +355,9 @@ section{
     -ms-transform: rotate(360deg);
     transform: translate()
 }
+
+.buttons {
+ margin: 8px 0 12px 0;
+ width: 100%;
+ text-align: center;
+ }
