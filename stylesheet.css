@@ -226,49 +226,94 @@ margin: 0;
 padding: 0;
   border: 0;
 }
-
-
-/*A_A__A_A_A_______AA__________________*/
-
-
-.sec2 {
-  border: 5px solid white;
-}
-.secright{
-  flex-direction: column;
-  flex: 2;
-}
-.secleft{
-  flex-direction: column;
-  flex: 1;
-  width:30%;
-  border: 5px solid white;
-}
-.top{
-  flex-direction: row;
-  flex: 2;
+/*-----------------------------------------------*/
+section{
   display: inline-block;
 }
-.secbottom{
-  flex-direction: row;
-  flex:2;
-  width: 400px;
+.Section2{
+  text-align:center;
+  margin:0 auto;
 }
-.lance img{
-  width: 300px;
-  display: inline-block;
+.pic-col {
   border: 5px solid white;
-
+  display:inline-block;
+  vertical-align:top;
+  height:230px;
+  box-shadow:0 5px gray
+  width: 30%;
 }
-.rodney img{
-  width: 300px;
-  display: inline-block;
+.pic-col-3{
+  border:5px solid white;
+  display:inline-block;
+  vertical-align:top;
+  height:464px;
+  box-shadow:0 5px gray
+}
+.lance{
+  object-fit:none;
+  object-position:right;
+  height:230px;
+  width:200px;
+  overflow:hidden;
+}
+.rodney{
+  object-fit: none;
+  object-position:left;
+  height:230px;
+  width:200px;
+  overflow:hidden;
+}
+.tommy{
+  object-fit:none;
+  object-position:-385px 0px;
+  height:466px;
+  width:330px;
+  overflow:hidden;
+}
+.steve{
+  object-fit: none;
+  object-position:0px -100px;
+  height:215px;
+  width:660px;
+  overflow:hidden;
+}
+.pic-row{
   border: 5px solid white;
+  overflow:hidden;
+  vertical-align:top;
+  height:215px;
+  width:660px;
+  margin:0;
+  padding:0;
+  position:relative;
+  bottom:225px;
+  left:10px;
+  box-shadow:0 5px gray
 }
-.secbottom img{
-  width: 100%;
-  border: 5px solid white;
+.smallimg{
+  font-family:sans-serif;
+  font-size:40px;
+  text-align:center;
+  z-index: 1;
+  position:relative;
+  color:white;
+  bottom:200px;
 }
-.secleft img{
-  width:100%;
+.wideimg{
+  font-family:sans-serif;
+  font-size:40px;
+  text-align:center;
+  z-index: 1;
+  position:relative;
+  color:white;
+  bottom:170px;
+}
+.tallimg{
+  font-family:sans-serif;
+  font-size:40px;
+  text-align:center;
+  z-index: 1;
+  position:relative;
+  color:white;
+  bottom:320px;
 }
