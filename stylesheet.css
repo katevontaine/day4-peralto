@@ -237,6 +237,8 @@ section{
   margin:0 auto;
   text-align: right;
   vertical-align: top;
+  display: inline-block;
+
 }
 /*.pic-col {
   border: 5px solid white;
@@ -272,9 +274,41 @@ section{
 }*/
 .columnleft{
   width: 74%;
+  display: inline-block;
+  vertical-align: top;
 }
 .columnright{
   width: 32%;
+  display: inline-block;
+
+}
+.columnrow{
+  width: 74%;
+  display: inline-block;
+}
+.pic-col{
+  width:216px;
+  height: 116px;
+  border: 5px solid white;
+  overflow: hidden;
+  display: inline-block;
+
+}
+.pic-col-3{
+  border: 5px solid white;
+  overflow: hidden;
+  width: 216px;
+  height: 345px;
+  display: inline-block;
+
+}
+.pic-row{
+  width:500px;
+  height: 216px;
+  border: 5px solid white;
+  overflow: hidden;
+  display: inline-block;
+
 }
 .lance{
   object-fit:none;
