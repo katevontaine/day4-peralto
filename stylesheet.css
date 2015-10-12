@@ -39,26 +39,30 @@ header ul li{
   border: 5px solid white;
   margin: -550px 0 0 170px;
 }
+
 .red a{
   display: inline-block;
   margin: 0 auto;
-  background-color: red;
+  background-color: #A32E2E;
   text-decoration: none;
   color:white;
-  padding: 0 10px 0 10px;
-  font-size: 16px;
+  padding: 5px 29px 5px 29px;
+  font-size: 12px;
   font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
 }
 .red nav{
   width:52%;
   margin:0 auto;
 }
+
 .red ul {
 font-family: sans-serif;
 margin:0 auto;
 font-size: 10px;
-padding: 0 0 0 210px;
+padding: 0 0 0 170px;
 }
+
 .logo img{
   max-width: 250px;
   padding-top: 100px;
@@ -152,11 +156,7 @@ footer{
 .middlesections{
   vertical-align:top;
 }
-.sec2{
-  border: 5px solid white;
-}
-
-section .sec2{
+/*section .sec2{
   border: 5px solid white;
 
 }
@@ -192,7 +192,8 @@ section .sec2 img {
   overflow:hidden;
   display: inline-block;
   padding-left: 200px;
-}
+}*/
+
 .title{
   font-weight: 700;
   font-size: 16px;
@@ -211,6 +212,8 @@ section .sec2 img {
 }
 span{
   text-align: center;
+  font-weight: bold;
+  color: #A32E2E;
 }
 .footerpara li{
   display: inline-block;
@@ -222,4 +225,50 @@ footer ul li{
 margin: 0;
 padding: 0;
   border: 0;
+}
+
+
+/*A_A__A_A_A_______AA__________________*/
+
+
+.sec2 {
+  border: 5px solid white;
+}
+.secright{
+  flex-direction: column;
+  flex: 2;
+}
+.secleft{
+  flex-direction: column;
+  flex: 1;
+  width:30%;
+  border: 5px solid white;
+}
+.top{
+  flex-direction: row;
+  flex: 2;
+  display: inline-block;
+}
+.secbottom{
+  flex-direction: row;
+  flex:2;
+  width: 400px;
+}
+.lance img{
+  width: 300px;
+  display: inline-block;
+  border: 5px solid white;
+
+}
+.rodney img{
+  width: 300px;
+  display: inline-block;
+  border: 5px solid white;
+}
+.secbottom img{
+  width: 100%;
+  border: 5px solid white;
+}
+.secleft img{
+  width:100%;
 }
