@@ -76,6 +76,7 @@ padding: 0 0 0 170px;
   vertical-align:top;
   margin: 0 auto;
   width: 105%;
+  text-align: right;
 }
 
 .sec3 {
@@ -103,6 +104,8 @@ padding: 0 0 0 170px;
   position: relative;
   margin:0 auto;
   width:52%;
+  text-align: right;
+  vertical-align: top;
 }
 
 .smallicons{
@@ -231,24 +234,47 @@ section{
   display: inline-block;
 }
 .Section2{
-  text-align:center;
   margin:0 auto;
+  text-align: right;
+  vertical-align: top;
 }
-.pic-col {
+/*.pic-col {
   border: 5px solid white;
   display:inline-block;
   vertical-align:top;
-  height:230px;
+  text-align: left;
   box-shadow:0 5px gray
-  width: 30%;
+  overflow: hidden;
+  width: 216px;
+  height: 100px;
+  padding: 0;
 }
 .pic-col-3{
   border:5px solid white;
   display:inline-block;
   vertical-align:top;
-  height:464px;
+  height:300px;
+  width: 180px;
+  overflow: hidden;
   box-shadow:0 5px gray
-  width:30%;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+}
+.pic-row{
+  border: 5px solid white;
+  overflow:hidden;
+  height:150px;
+  width: 400px;
+  margin:0;
+  padding:0;
+  box-shadow:0 5px gray
+}*/
+.columnleft{
+  width: 74%;
+}
+.columnright{
+  width: 32%;
 }
 .lance{
   object-fit:none;
@@ -278,20 +304,7 @@ section{
   width:660px;
   overflow:hidden;
 }
-.pic-row{
-  border: 5px solid white;
-  overflow:hidden;
-  vertical-align:top;
-  height:215px;
-  width:60%;
-  margin:0;
-  padding:0;
-  position:relative;
-  bottom:225px;
-  left:10px;
-  box-shadow:0 5px gray
 
-}
 .smallimg{
   font-family:sans-serif;
   font-size:40px;
@@ -319,6 +332,14 @@ section{
   color:white;
   bottom:320px;
 }
+
+
+
+
+
+
+
+
 
 /*ARROW*/
 
