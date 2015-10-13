@@ -95,7 +95,7 @@ padding: 0 0 0 170px;
   border: 5px solid white;
   -webkit-margin-before: 0;
   -webkit-margin-after: 0;
-  padding-left: 30px;
+  /*padding-left: 30px;*/
 }
 .sec3 ul{
   padding: 0px;
@@ -132,16 +132,17 @@ padding: 0 0 0 170px;
 
 footer{
   margin: 0 auto;
-  width:48.5%;
+  width:49%;
   border: 5px solid white;
   background-color: white;
-  position: absolute;
-  margin: 1000px 0px 100px 300px;
+  /*position: absolute;*/
+  /*margin: 1000px 0px 100px 300px;*/
 }
 .skateboards{
   background-color: white;
-  position: absolute;
-  margin: 600px 0 0 0;
+  /*position: absolute;*/
+  width: 50%;
+  margin: 0 auto;
 }
 .sec3 img{
   max-width: 55px;
@@ -249,40 +250,59 @@ section{
   display: inline-block;
   width: 100%;
 }
-
+.Section2 p{
+    font: 200px;
+    font-weight: bold;
+    margin: 0auto;
+    text-align: center;
+    width: 50%;
+}
 .column-left {
   width: 64%;
   display: inline-block;
+  overflow: hidden;
+
 }
 
 .column-right {
-  width: 33%;
+  width: 25%;
   display: inline-block;
+  /*padding-top: 98px;*/
+  /*padding-left: 35px;*/
+  margin: 0;
+  height: 100px;
+  overflow: hidden;
 }
 
 .half-column {
   width: 50%;
   display: inline-block;
+  overflow: hidden;
+
 }
 
 .lance {
   background: url('images/sk8er-4.png');
   background-size: cover;
   background-position: center;
-  width: 49.5%;
+  width: 45%;
   height: 120px;
   padding: 0;
   margin: 0;
-
+  border: 5px solid white;
+  color: white;
 }
 
 .rodney {
   background: url('images/sk8er-3.png');
   background-size: cover;
-  width: 49.5%;
+  width: 45%;
   height: 120px;
   padding: 0;
   margin: 0;
+  overflow: hidden;
+  border: 5px solid white;
+  color: white;
 }
 
 .steve {
@@ -290,76 +310,20 @@ section{
   background-size: cover;
   width: 100%;
   height: 216px;
-
+  overflow: hidden;
+  border: 5px solid white;
+  color: white;
 }
 
 .tommy {
   background: url('images/sk8er-2.png');
   background-size: cover;
   width: 30%;
-  height: 440px;
-}
-/*.column-right img {
-  width: 100%;
-}*/
-/*.pic-col {
-  border: 5px solid white;
-  display:inline-block;
-  vertical-align:top;
-  text-align: left;
-  box-shadow:0 5px gray
+  height: 340px;
   overflow: hidden;
-  width: 216px;
-  height: 100px;
-  padding: 0;
-}
-.pic-col-3{
-  border:5px solid white;
-  display:inline-block;
-  vertical-align:top;
-  height:300px;
-  width: 180px;
-  overflow: hidden;
-  box-shadow:0 5px gray
-  text-align: left;
-  padding: 0;
-  margin: 0;
-}
-.pic-row{
   border: 5px solid white;
-  overflow:hidden;
-  height:150px;
-  width: 400px;
-  margin:0;
-  padding:0;
-  box-shadow:0 5px gray
-}*/
-/*.columnleft{
-  width: 120px;
-  display: inline-block;*/
-  /*vertical-align: top;
-  padding: 0 1200px 0 0;
-  position: absolute;
-}*/
-/*.columnright{
-  width: 28%;
-  display: inline-block;
-  padding: 0px 450px 0px 440px;
-}*/
-
-
-
-
-
-
-
-
-
-
-.columnrow{
-  width: 200px;
-  display: inline-block;
-  /*position: absolute;*/
+  color: white;
+}
 
 }
 .pic-col{
@@ -386,34 +350,6 @@ section{
   display: inline-block;
 
 }
-/*.lance{
-  object-fit:none;
-  object-position:right;
-  height:230px;
-  width:200px;
-  overflow:hidden;
-}
-.rodney{
-  object-fit: none;
-  object-position:left;
-  height:230px;
-  width:200px;
-  overflow:hidden;
-}
-.tommy{
-  object-fit:none;
-  object-position:-385px 0px;
-  height:466px;
-  width:330px;
-  overflow:hidden;
-}
-.steve{
-  object-fit: none;
-  object-position:0px -100px;
-  height:215px;
-  width:660px;
-  overflow:hidden;
-}*/
 
 .smallimg{
   font-family:sans-serif;
@@ -442,14 +378,6 @@ section{
   color:white;
   bottom:320px;
 }
-
-
-
-
-
-
-
-
 
 /*ARROW*/
 
@@ -492,3 +420,38 @@ section{
  width: 100%;
  text-align: center;
  }
+
+@media (max-width:900px) and (min-width:800px){
+.container{
+  width:100%;
+}
+.socialicons{
+    margin-left: 525px;
+}
+.socialicons nav{
+  display: inline-block;
+  padding: 0;
+  margin: 0auto;
+}
+.socialicons li{
+  display: inline-block;
+  padding: 0;
+  margin:0auto;
+}
+ul{
+  display: inline-block;
+  -webkit-padding-start: 0px;
+}
+}
+
+@media (max-width:400px) and (min-width:320px){
+
+
+
+
+
+
+
+
+
+}
