@@ -6,7 +6,7 @@ body {
 }
 .container {
   margin:0 auto;
-  width:80%;
+  width:100%;
 }
 
 header{
@@ -21,7 +21,13 @@ header{
   border-left: 1px dotted white;
   margin-left: 610px;
 }
-
+#center-top img{
+  z-index: 1000;
+  padding: 0;
+}
+#guy{
+  z-index: 800;
+}
 header ul li{
   text-decoration: none;
   display: inline-block;
@@ -38,6 +44,7 @@ header ul li{
   overflow:hidden;
   border: 5px solid white;
   margin: -550px 0 0 170px;
+  z-index: 100;
 }
 
 .red a{
@@ -69,6 +76,7 @@ padding: 0 0 0 170px;
 }
 .logo{
   padding: 100px 300px 220px 150px;
+  z-index: 1000;
 }
 
 .sec1 {
