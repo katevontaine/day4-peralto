@@ -563,20 +563,27 @@ footer {
 }
 .section2{
   width: 80%;
-  max-height: 300px;
+  max-height: 280px;
 }
 .column-left{
   width: 60%;
   margin: 0auto;
+  vertical-align: top;
 }
 .column-right{
   width:29%;
+  vertical-align: top;
+
 }
 .lance{
-  width: 80px;
+  width: 70px;
+  vertical-align: top;
+
 }
 .rodney{
-  width:80px;
+  width:70px;
+  vertical-align: top;
+
 }
 .steve{
   width: 180px;
